@@ -101,7 +101,7 @@
   display: inline-flex;
   margin: 10px;
 }
-.fab {
+.custom-fab {
   position: fixed;
   z-index: 10;
   bottom: 30px;
