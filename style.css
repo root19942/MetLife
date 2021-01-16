@@ -1,0 +1,107 @@
+.container {
+  background-color: white;
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+}
+.main {
+  border: 2px solid #3f3f3f;
+  width: 100%;
+  height: 100%;
+}
+.header {
+  height: 8rem !important;
+  width: 100%;
+  background-color: white;
+  display: flex;
+}
+.left {
+  height: 100%;
+  width: 30%;
+  background-color: white;
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+}
+.center {
+  height: 100%;
+  width: 45%;
+  display: inline-flex;
+  align-items: center;
+  background-color: white;
+}
+.right {
+  height: 100%;
+  width: 20%;
+  display: inline-flex;
+  align-items: center;
+  background-color: white;
+  padding-top: 10px;
+}
+.userDetails {
+  color: rgb(85, 84, 84);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 10px;
+}
+.logo {
+  height: auto;
+  width: 100%;
+}
+.CustomnavBar {
+  height: 4rem;
+  width: 100%;
+  background-color: #1e63a0;
+}
+.navBarBtn {
+  color: white;
+  height: 100%;
+  min-width: 10vw;
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  text-align: center;
+}
+.navBarBtn:hover {
+  background-color: #5ea4ee;
+  font-size: 15px;
+}
+.body {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  padding: 0;
+}
+.subscribersBox {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.subscriberBox {
+  height: auto;
+  background-color: #f3f3f3;
+  padding: 25px;
+  border-radius: 20px;
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.selectSubscriber {
+  width: 100%;
+  height: 80px;
+  background-color: #f3f3f3;
+  text-align: center;
+  padding: 10px;
+}
+.choice .form-check {
+  display: inline-flex;
+  margin: 10px;
+}
+.form-control {
+  height: 1.5rem;
+  padding: 0;
+}
+.subscriberBox form {
+  width: 50%;
+}
