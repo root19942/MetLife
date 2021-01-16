@@ -1,11 +1,10 @@
-.container {
+.Container {
   background-color: white;
   display: inline-flex;
   width: 100%;
   justify-content: center;
 }
 .main {
-  border: 2px solid #3f3f3f;
   width: 100%;
   height: 100%;
 }
@@ -50,7 +49,11 @@
 .CustomnavBar {
   height: 4rem;
   width: 100%;
-  background-color: #1e63a0;
+  background-color: white;
+  z-index: 4;
+  padding-right: 20px;
+  text-align: right;
+  padding-top: 10px;
 }
 .navBarBtn {
   color: white;
@@ -84,8 +87,8 @@
   border-radius: 20px;
   display: inline-flex;
   justify-content: center;
-  width: 100%;
   margin-bottom: 20px;
+  z-index: inherit 1;
 }
 .selectSubscriber {
   width: 100%;
@@ -98,10 +101,9 @@
   display: inline-flex;
   margin: 10px;
 }
-.form-control {
-  height: 1.5rem;
-  padding: 0;
-}
-.subscriberBox form {
-  width: 50%;
+.fab {
+  position: fixed;
+  z-index: 10;
+  bottom: 30px;
+  right: 30px;
 }
